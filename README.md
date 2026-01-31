@@ -14,7 +14,7 @@ AudioFang is a professional audio mixing application with voice-activated auto-d
 
 ## python install commands:
 pip install -r requirements.txt
+pip install nuitka
 
 ## Build the executable: 
-pip install nuitka
 nuitka --standalone --onefile --windows-console-mode=disable --enable-plugin=tk-inter --windows-icon-from-ico=Audiofang_icon.ico --include-data-file=Audiofang_icon.ico=Audiofang_icon.ico --output-filename=AudioFang.exe audiofang_youtube.py
